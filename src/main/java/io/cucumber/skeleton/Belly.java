@@ -1,7 +1,9 @@
 package io.cucumber.skeleton;
 
-public class Belly {
-    public void eat(int cukes) {
+import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-    }
+@SpringBootApplication
+@SpringBootConfiguration
+public class Belly {
 }
